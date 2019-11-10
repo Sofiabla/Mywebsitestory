@@ -1,0 +1,67 @@
+body { 
+text-align: center;
+background: url(Image/bgk.jpg);
+background-attachment: fixed;
+background-position: fixed;
+background-repeat: repeat;
+background-size: contain;
+/* background-color: #F3E0EC */
+}
+ 
+ div style {
+ 	width:700px;
+ 	margin: 100px auto;
+ }
+
+div{ background: white;
+padding: 100px;
+margin: 100px;
+box-shadow : 0px 10px 30px rgba(0,0,0,0.3);
+border-radius : 6px;
+}
+
+h1 { color: #54494B;
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;}
+
+img { width: 300px;
+	height: 300px;
+	border-radius: 50px;}
+
+h2 { color: black;
+font-size: 16px;
+font-family: 'Open Sans Condensed', sans-serif;}
+
+h3 { color: #ECB8A5;
+font-size: 18px;
+font-family: 'Pathway Gothic One', sans-serif;}
+
+h4 { color: #330C2F;
+font-size: 16px;
+font-family: 'Josefin Sans', sans-serif;}
+
+h5 { color: #32908F;
+font-size: 30px;
+font-family: 'Staatliches', cursive;}
+
+a{color :#32908F;
+	font-size: 50px}
+
+/* Custom design with class (99% of you design) */
+.container {
+	width: 700px;
+	margin: 40px auto
+	;
+}
+
+@media (max-width: 720px) { 
+	.container  {
+		width: 400px;
+		}
+	}
+
+	@media (max-width: 500px) { 
+	.container  {
+		width: 400px;
+		}
+	}
